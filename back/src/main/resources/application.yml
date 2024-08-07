@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eventpage?useUnicode=true&characterEncoding=utf8
+    username: user01
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
+
+jwt:
+  secret-key: ThisStatementIsJwtSecretKeyDoNotUseThisStatement
